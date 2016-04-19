@@ -1,0 +1,20 @@
+<h2>Color Swatch Preview</h2>
+
+<p>
+  This is a preview of the colors found in the _preview-colors.css.scss file.
+</p>
+
+<p>
+  Refer to the README of the Swatches engine for more information.
+</p>
+
+<%- Swatches::Colors.names.each do |color_name| %>
+  <ul class="color-list">
+    <%- (0..50).each do |i| %>
+      <% c = "#{color_name}-#{i*2}" %>
+      <li class="<%= c %>">
+        <%= c %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
