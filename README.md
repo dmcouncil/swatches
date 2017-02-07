@@ -102,3 +102,8 @@ This will create a new _color-swatches.css.scss file and put it in the styleshee
 
 You can preview these generated colors by navigating to /swatches in your application.
 
+## Contributors
+
+Swatches was originally developed by [Wyatt Greene](/techiferous) and is maintained by [District Management Group][1].
+
+[1]: https://dmgroupK12.com/
