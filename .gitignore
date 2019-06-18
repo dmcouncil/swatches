@@ -1,4 +1,7 @@
 .bundle/
+# We don't need to lock in dependency versions unless they're in the .gemspec file.
+Gemfile.lock
+
 log/*.log
 pkg/
 test/dummy/db/*.sqlite3
@@ -6,3 +9,6 @@ test/dummy/db/*.sqlite3-journal
 test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
+
+# Ignore built gems
+swatches-*.gem
